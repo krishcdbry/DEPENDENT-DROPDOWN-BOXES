@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Hi guyz ,
 
 Now we are going to deal with dependent dropbown boxes. Here it includes two drop dpwn boxes in that the options in second drop down box will be depends on the selection of the first box.
@@ -120,3 +121,9 @@ while($kk = @mysql_fetch_array($k)){  ?>
 <?php }
 ?>
 </select>
+=======
+DEPENDENT-DROPDOWN-BOXES
+========================
+
+Dependent dropdown boxes
+>>>>>>> 80579de6f96007078f5d68ea11084944add3f3ee
