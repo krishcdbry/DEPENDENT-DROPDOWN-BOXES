@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Hi guyz ,
 
 Now we are going to deal with dependent dropbown boxes. Here it includes two drop dpwn boxes in that the options in second drop down box will be depends on the selection of the first box.
@@ -102,28 +101,3 @@ $( "select" ).change(function () {
 
  </script>
 
-
-RETRIEVING VALUES FROM TABLE: get_col.php
-
-<?php
-include('db_connect.php');
-$state = $_POST['state'];
-?>
-
-<select name="district">
-<?php
-$k = @mysql_query("SELECT * FROM state");
-while($kk = @mysql_fetch_array($k)){  ?>
- <option name="<?php echo $kk[$state]; ?>" value="<?php echo $kk[$state]; ?>">
- <?php echo $kk[$state]; ?>
-  </option>
-
-<?php }
-?>
-</select>
-=======
-DEPENDENT-DROPDOWN-BOXES
-========================
-
-Dependent dropdown boxes
->>>>>>> 80579de6f96007078f5d68ea11084944add3f3ee
